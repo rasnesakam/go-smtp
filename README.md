@@ -1,9 +1,7 @@
 # GO-SMTP
-go-smtp is a tool that sends email through different smtp protocols
+Go-smtp is a Go library designed for event-driven email sending. 
 
-It uses distributed messaging systems to trigger the action to send mails whenever an event occured.
-
-As distributed messaging system, go-smtp uses [Kafka](https://kafka.apache.org/).
+It integrates with [Kafka](https://kafka.apache.org/) to receive email sending requests and supports multiple SMTP protocols for reliable email delivery.
 
 ## Running Application
 Before running application, make sure that you set up these parameters with `.env` file
