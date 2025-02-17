@@ -20,3 +20,5 @@ KAFKA_TOPIC=mail
 KAFKA_PARTITION=0
 KAFKA_GROUP_ID=go-smtp
 ```
+
+After adding environment variables, you can simply execute command `go run .`
