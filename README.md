@@ -22,7 +22,7 @@ KAFKA_GROUP_ID=go-smtp
 After adding environment variables, you can simply execute command `go run .`
 
 ## Sending email
-go-smtp accepts inputs as JSON format. for sending email via smtp you should publish a json that has a format as follows through your message producers
+go-smtp accepts inputs as JSON format. To send an email via smtp, you should publish a json that has a format as follows through your message producers
 
 ```json
 {
