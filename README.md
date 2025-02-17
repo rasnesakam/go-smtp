@@ -34,3 +34,4 @@ go-smtp accepts inputs as JSON format. for sending email via smtp you should pub
     "Content": "The peace be upon you"
 }
 ```
+go-smtp will listen the topic that you specified and will send the mail
